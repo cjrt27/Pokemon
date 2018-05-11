@@ -11,8 +11,8 @@ const PokeButton = props => {
 const PokeInfo = (props) => {
   return (
     <div className= "infoContainer"> 
-      <h1 className="Name">{props.name} </h1>
-      <p className="Weight">Weight:{props.weight}</p>
+      <h1 className="Name">Name: {props.name} </h1>
+      <p className="Weight">Weight: {props.weight}</p>
       <div className="Img"><img src={props.pokeImg} alt={props.name}  /></div>
     </div>
   )

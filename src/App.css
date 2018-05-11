@@ -1,0 +1,123 @@
+@font-face {
+  font-family: 'Pokemon Solid';
+  src: url('fonts/PokemonSolidNormal.eot');
+  src: url('fonts/PokemonSolidNormal.eot?#iefix') format('embedded-opentype'),
+      url('fonts/PokemonSolidNormal.woff2') format('woff2'),
+      url('fonts/PokemonSolidNormal.woff') format('woff'),
+      url('fonts/PokemonSolidNormal.ttf') format('truetype'),
+      url('fonts/PokemonSolidNormal.svg#PokemonSolidNormal') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pokemon Hollow';
+  src: url('fonts/PokemonHollowNormal.eot');
+  src: url('fonts/PokemonHollowNormal.eot?#iefix') format('embedded-opentype'),
+      url('fonts/PokemonHollowNormal.woff2') format('woff2'),
+      url('fonts/PokemonHollowNormal.woff') format('woff'),
+      url('fonts/PokemonHollowNormal.ttf') format('truetype'),
+      url('fonts/PokemonHollowNormal.svg#PokemonHollowNormal') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.App {
+  text-align: center;
+  background-color:black;
+  display:grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 4.895fr;
+  grid-area: center;
+
+}
+
+
+
+.App-logo{
+  max-width: 803px;
+  max-height: 600px;
+  grid-row-start: 2;
+  grid-row-end:3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+ 
+
+}
+
+.Name{
+  font-family: 'Pokemon Solid';
+  font-weight: normal;
+  font-style: normal;
+  grid-row-start: 2;
+  grid-row-end:3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  color:black;
+
+}
+.Weight{
+
+  grid-row-start: 2;
+  grid-row-end:3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  color:black;
+}
+.Img{
+
+  grid-row-start: 2;
+  grid-row-end:3;
+  grid-column-start: 2;
+	grid-column-end: 3;
+}
+
+h1{
+
+  grid-row-start: 1;
+	grid-row-end:2;
+  font-family: 'Pokemon Solid';
+  font-weight: normal;
+  font-style: normal;
+  color:red;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.button {
+  grid-row-start: 2;
+  grid-row-end:3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  border-radius: 20px;
+	background-color: #e2574c;
+	color:#FFFFFF;
+	height: 3em;
+	width: 6em;
+  border: 0px solid;
+  z-index: 1;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:1em;
+  margin-left:1em;
+  font-family: 'Pokemon Hollow';
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.infoContainer{
+  grid-row-start: 2;
+  grid-row-end:3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  color:black;
+  margin-top:5em;
+  font-family: 'Pokemon Solid';
+  font-weight: normal;
+  font-style: normal;
+  max-height:900px;
+
+}

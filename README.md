@@ -1,6 +1,6 @@
 /*Project 3 - Pokedex*/ 
 
-This was our first project using React.
+This was our first project using React. As it was the first project using React, the aspect of this project which was particularly challenging was getting all of the react functionality to work.
 
 
 # Technologies Used
